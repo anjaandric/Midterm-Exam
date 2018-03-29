@@ -1,5 +1,5 @@
 # Midterm-Exam
 
-##### Name:
-##### Surname:
-##### Index #:
+##### Name: Anja
+##### Surname: Andrić
+##### Index #:16/024
