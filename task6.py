@@ -16,3 +16,19 @@
 """
 
 # Write your code here
+
+sve_linije = open("attendance.csv","r").readlines()
+
+for linija in sve_linije:
+
+    linija1 = linija.strip()
+    ime_i_broj = linija1.split(",")
+
+    ime = str(ime_i_broj[0])
+    broj = int(ime_i_broj[1])
+
+
+rezultat = open("Rezultat.txt","a").write()
+
+
+

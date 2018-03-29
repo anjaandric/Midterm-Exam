@@ -18,13 +18,33 @@
 * Use main() function to test your solution.
 ===================================================
 """
-
 # Write your function here
 
 
+niz = ['12','16','177','34']
 
-def main():
-    # Test your function here
-    pass
 
-main()
+
+
+max_niza = niz [0]
+
+for i in range(len(niz)-1):
+    if max_niza < niz [i+1]:
+
+        max_niza = niz[i+1]
+
+    return max_niza
+
+for i in range(len(niz)-1):
+    if min_niza > niz [i+1]:
+        min_niza = niz [i+1]
+
+    return min_niza
+
+
+
+
+
+print("Maksimum niza je: ",max_niza)
+print("Minimum niza je, ",min_niza)
+print("Razlika maksimalnog i minimalnog niza je: ",max_niza1)
