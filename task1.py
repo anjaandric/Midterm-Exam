@@ -16,12 +16,20 @@
 ===================================================
 """
 
-# Write your function here
+def area_of_circle(r):
+
+    if not isinstance(r,float):
+        return False
+
+    r=abs(r)
+
+    return r * r * 3.14
 
 
 
 def main():
     # Test your function here
-    pass
+    povrsina = area_of_circle(2.3)
+    print(povrsina)
 
 main()
