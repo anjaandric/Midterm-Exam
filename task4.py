@@ -18,8 +18,30 @@
 
 
 
+def veliko_slovo(recenica):
+
+    nova_recenica = ""
+
+    for karakter in recenica:
+        broj_slova = ord(karakter)
+
+        if broj_slova > 96 and broj_slova < 123:
+            broj_velikog_slova = broj_slova -32
+            karakter = chr(broj_velikog_slova)
+
+        nova_recenica += karakter
+
+
+    return nova_recenica
+
 def main():
-    # Test your function here
-    pass
+
+    recenica_je = "PrOgRAMIranje i ALGOritmi"
+
+    novarecenica =(veliko_slovo(recenica_je))
+    print("Zadata recenica je: ",novarecenica)
+
 
 main()
+
+
